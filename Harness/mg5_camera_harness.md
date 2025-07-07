@@ -1,20 +1,20 @@
 ---
 author: sunrisesteel
 date: 2025-07-07
-revision: 1
+revision: 2
 ---
 # MG5 Camera Harness
 
-This overview of a camera harness for the MG5, for connecting to the LKAS camera, car harness, and Comma 3X relay box.
+Overview of a camera harness for the MG5 (2021), for connecting to the LKAS camera & car harness, to a Comma 3X relay box.
 
 ## Electrical Checks
 
 Before connecting, verify the following & check on the harness that goes to the LKAS camera with a multimeter:
 
-- **LKAS Camera / FVCM *(Front Vechile Camera Module) (Manu Part No):** 11047791/01
-- **Resistance (Pins 1-7):** ~125–135 Ω
-- **Resistance (Pins 2-8):** ~60–65 Ω
-- **Voltage (Pins 6-7):** 12V
+- **LKAS Camera / FVCM (Front Vechile Camera Module) (Manu Part No):** `11047791/01`
+- **Resistance (Pins 1-7):** `~125–135 Ω`
+- **Resistance (Pins 2-8):** `~60–65 Ω`
+- **Voltage (Pins 6-7):** `12V`
 
 ## Connectors and Parts
 
@@ -35,9 +35,9 @@ Before connecting, verify the following & check on the harness that goes to the 
 - **Molex Pins:** `501648-1000`
 
 ## Wiring
-|               |LKAS TE | RELAY MOLEX | HARNESS TE  |
-| Function      |PIN     | PIN         | PIN         |
-|---------------|--------|-------------|-------------|
+
+| Function      |TO LKAS (TE) PINS | RELAY (MOLEX) PINS | TO HARNESS (TE) PINS |
+|---------------|:--------:|:-------------:|:-------------:|
 | RADAR_CAN (L) |   1    |      9      |             |
 | RADAR_CAN (H) |   7    |     11      |             |
 | CHASIS_CAN (L)|   2    |     18      |             |
