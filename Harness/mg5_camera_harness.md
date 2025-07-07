@@ -14,7 +14,7 @@ Before connecting, verify the following & check on the harness that goes to the 
 - **LKAS Camera / FVCM (Front Vechile Camera Module) (Manu Part No):** `11047791/01`
 - **Resistance (Pins 1-7):** `~125–135 Ω`
 - **Resistance (Pins 2-8):** `~60–65 Ω`
-- **Voltage (Pins 6-7):** `12V`
+- **Voltage (Pins 5-6):** `12V`
 
 ## Connectors and Parts
 
